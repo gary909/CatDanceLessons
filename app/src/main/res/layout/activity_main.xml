@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/layout"
+    android:id="@+id/activity_main"
+    android:background="@drawable/catground"
+    tools:context="com.example.android.catdancelessons.MainActivity">
+
+
+    <ImageView
+        style="@style/Image"
+        android:src="@drawable/catrounded" />
+
+    <TextView
+        android:id="@+id/textView2"
+        style="@style/Heading"
+        android:text="@string/find"
+        android:layout_gravity="center"
+        android:textAllCaps="true" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/ic_add"
+            style="@style/Buttons"
+            android:src="@drawable/ic_location_on_black_24dp" />
+
+        <TextView
+            android:id="@+id/address"
+            style="@style/Text"
+            android:layout_toRightOf="@id/ic_add"
+            android:text="@string/street" />
+
+        <ImageView
+            android:id="@+id/ic_web"
+            style="@style/Buttons"
+            android:layout_below="@id/address"
+            android:src="@drawable/ic_http_black_24dp" />
+
+        <TextView
+            android:id="@+id/Website"
+            style="@style/Text"
+            android:layout_below="@id/address"
+            android:layout_toRightOf="@id/ic_web"
+            android:text="@string/web"
+            />
+
+        <ImageView
+            android:id="@+id/ic_fone"
+            style="@style/Buttons"
+            android:layout_below="@id/Website"
+            android:src="@drawable/ic_call_black_24dp" />
+
+        <TextView
+            android:id="@+id/phone"
+            style="@style/Text"
+            android:layout_below="@id/Website"
+            android:layout_toRightOf="@id/ic_fone"
+            android:text="@string/phone" />
+
+        <ImageView
+            android:id="@+id/ic_mail"
+            style="@style/Buttons"
+            android:layout_below="@id/phone"
+            android:src="@drawable/ic_email_black_24dp" />
+
+        <TextView
+            android:id="@+id/email"
+            style="@style/Text"
+            android:layout_below="@id/phone"
+            android:layout_toRightOf="@id/ic_mail"
+            android:text="@string/mail" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/textView"
+        style="@style/Text"
+        android:text="@string/logo"
+        android:layout_gravity="center"
+        android:textAllCaps="true" />
+
+</LinearLayout>

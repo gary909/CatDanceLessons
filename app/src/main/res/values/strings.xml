@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">CAT DANCE LESSONS</string>
+    <string name="find">Find Us:</string>
+    <string name="street">Kitten-Groove-Str. 105</string>
+    <string name="web">www.catdance.de</string>
+    <string name="phone">020-473-51-542</string>
+    <string name="mail">catdance@catdance.de</string>
+    <string name="logo">* Dance with cats * Dance like cats *</string>
+</resources>
